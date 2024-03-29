@@ -1,5 +1,5 @@
 # Practical Task
-Mobile application for To-Do List.
+Mobile application for Practical Task.
 
 ## Version : 1.0.0 Date : 29-03-2024
 ------------------------------------------
