@@ -1,35 +1,18 @@
-# practicaltask
+# Practical Task
+Mobile application for To-Do List.
 
-A new Flutter project.
+## Version : 1.0.0 Date : 29-03-2024
+------------------------------------------
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-Here is the task to do.
-1. Splash
-   a. You can use your creativity on the splash screen.
-2. Login
-   a. Take two fields: Mobile and password.
-   b. Take global variable to check mobile = 9033006262 and password =
-   eVital@12
-   c. With proper validation.
-3. Home page
-   a. take a list of 43 records
-   ● You can use a database GetStorage. It's your choice.
-   b. Pagination of 20 records in the list (scroll down the list to get more than 20
-   records)
-   c. Name, phone number, city, an image of the user, and Rupee. Where stock is
-   Rupee 0 to 100 if above 50 then it’s high and below 50 then it’s low.
-   d. The list can be filtered by name/phone/city
-4. Click on the row to open Dialog and change Rupee. and that updated Rupee will be reflected on the list.
+- Creating the App: Developed a mobile app that works on both Android and iOS platforms using Flutter.
+- Splash Screen with Custom Design Implementation is done.
+- Login via mobile no & password & check with validation.
+- The dashboard shows a list of records.
+- Search by name, phone, or city functionality implemented.
+- Update the particular record stock with validation, and functionality implemented.
+-  MVC Architecture: Structured the app following the Model-View-Controller (MVC) architecture pattern to organize code and separate concerns.
+- State Management with GetX: GetX, a state management library, will be used to handle the app's state effectively.
+- Responsive UI: The app will have a responsive user interface that adapts to different screen sizes, ensuring it looks good on both mobile phones and tablets.
+- Unit Testing:
+  [1] Add records functionality tested with unit testing.
+  [2] Search record functionality tested with unit testing.
